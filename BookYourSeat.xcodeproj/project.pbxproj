@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EA446C721E7035B007724D4 /* seat_jsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA446C621E7035B007724D4 /* seat_jsonData.swift */; };
+		5EA446C921E70386007724D4 /* SeatSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA446C821E70386007724D4 /* SeatSelector.swift */; };
+		5EA446CB21E71367007724D4 /* DataManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA446CA21E71367007724D4 /* DataManagement.swift */; };
+		5EA446CE21E72699007724D4 /* SeatArrangement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA446CC21E72699007724D4 /* SeatArrangement.swift */; };
+		5EA446CF21E72699007724D4 /* SeatArrangement.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EA446CD21E72699007724D4 /* SeatArrangement.xib */; };
 		5EFABA3C21E6EC61000AB637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFABA3B21E6EC61000AB637 /* AppDelegate.swift */; };
 		5EFABA3E21E6EC61000AB637 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFABA3D21E6EC61000AB637 /* ViewController.swift */; };
 		5EFABA4121E6EC61000AB637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFABA3F21E6EC61000AB637 /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EA446C621E7035B007724D4 /* seat_jsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seat_jsonData.swift; sourceTree = "<group>"; };
+		5EA446C821E70386007724D4 /* SeatSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatSelector.swift; sourceTree = "<group>"; };
+		5EA446CA21E71367007724D4 /* DataManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagement.swift; sourceTree = "<group>"; };
+		5EA446CC21E72699007724D4 /* SeatArrangement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatArrangement.swift; sourceTree = "<group>"; };
+		5EA446CD21E72699007724D4 /* SeatArrangement.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeatArrangement.xib; sourceTree = "<group>"; };
 		5EFABA3821E6EC61000AB637 /* BookYourSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookYourSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFABA3B21E6EC61000AB637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EFABA3D21E6EC61000AB637 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EA446D021E726A9007724D4 /* DataManagement */ = {
+			isa = PBXGroup;
+			children = (
+				5EA446C621E7035B007724D4 /* seat_jsonData.swift */,
+				5EA446CA21E71367007724D4 /* DataManagement.swift */,
+			);
+			path = DataManagement;
+			sourceTree = "<group>";
+		};
 		5EFABA2F21E6EC61000AB637 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +77,10 @@
 			children = (
 				5EFABA3B21E6EC61000AB637 /* AppDelegate.swift */,
 				5EFABA3D21E6EC61000AB637 /* ViewController.swift */,
+				5EA446CC21E72699007724D4 /* SeatArrangement.swift */,
+				5EA446CD21E72699007724D4 /* SeatArrangement.xib */,
+				5EA446C821E70386007724D4 /* SeatSelector.swift */,
+				5EA446D021E726A9007724D4 /* DataManagement */,
 				5EFABA3F21E6EC61000AB637 /* Main.storyboard */,
 				5EFABA4521E6EC61000AB637 /* Assets.xcassets */,
 				5EFABA4721E6EC61000AB637 /* LaunchScreen.storyboard */,
@@ -127,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EFABA4921E6EC61000AB637 /* LaunchScreen.storyboard in Resources */,
+				5EA446CF21E72699007724D4 /* SeatArrangement.xib in Resources */,
 				5EFABA4621E6EC61000AB637 /* Assets.xcassets in Resources */,
 				5EFABA4121E6EC61000AB637 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +165,11 @@
 			files = (
 				5EFABA3E21E6EC61000AB637 /* ViewController.swift in Sources */,
 				5EFABA3C21E6EC61000AB637 /* AppDelegate.swift in Sources */,
+				5EA446CB21E71367007724D4 /* DataManagement.swift in Sources */,
+				5EA446CE21E72699007724D4 /* SeatArrangement.swift in Sources */,
 				5EFABA4421E6EC61000AB637 /* BookYourSeat.xcdatamodeld in Sources */,
+				5EA446C721E7035B007724D4 /* seat_jsonData.swift in Sources */,
+				5EA446C921E70386007724D4 /* SeatSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
