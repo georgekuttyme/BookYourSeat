@@ -26,12 +26,12 @@ class ViewController: UIViewController  {
     
     @IBAction func chooseSeat(_ sender: Any) {
         let count:Int = Int(txtCount.text ?? "0") ?? 0
-        if count < 6 && count > 0   {
+        if count < 7 && count > 0   {
             let seatsVies:SeatArrangement = SeatArrangement(nibName: "SeatArrangement", bundle: nil) as SeatArrangement
             seatsVies.selected_seat_limit = count
             self.present(seatsVies, animated: true, completion: nil)
         }
-      self.dispAlert(alertStr :"Please eneter numer of Seats in between 1-5" , alertTitle : "Alert!")
+      self.dispAlert(alertStr :"Please eneter numer of Seats in between 1-8" , alertTitle : "Alert!")
     }
     
     override func didReceiveMemoryWarning() {
